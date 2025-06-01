@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NhacDuck - Trang phát nhạc</title>
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    audio {
+      width: 80%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎧 Chào mừng đến với NhacDuck 🎧</h1>
+  <p>Nhấn nút bên dưới để phát nhạc!</p>
+
+  <!-- 🔊 ĐỔI "tenfile.mp3" thành tên file nhạc bạn đã upload -->
+  <audio controls autoplay>
+    <source src="tenfile.mp3" type="audio/mpeg" />
+    Trình duyệt của bạn không hỗ trợ phát nhạc.
+  </audio>
+
+  <p style="margin-top: 30px;">© vietbomber - GitHub Pages</p>
+</body>
+</html>
